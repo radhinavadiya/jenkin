@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f19005bf-e250-4e6d-9b97-dd180c89f193" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BuildYourComputerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegistrationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/registrationDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
+    <list default="true" id="f19005bf-e250-4e6d-9b97-dd180c89f193" name="Changes" comment="jenkin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +156,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit.verifynonRegisteredUserShoudNotAbleToMailToFriend" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Bdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSuit" />
+      <option name="METHOD_NAME" value="verifynonRegisteredUserShoudNotAbleToMailToFriend" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.TestSuit.verifyMailShouldBeSentSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.verifynonRegisteredUserShoudNotAbleToMailToFriend" />
       <item itemvalue="TestNG.TestSuit.verifyMailShouldBeSentSuccessfully (2)" />
       <item itemvalue="TestNG.TestSuit.verifyMailShouldBeSentSuccessfully (1)" />
       <item itemvalue="TestNG.TestSuit.verifyRegisterShouldBeSuccessfullydone" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit.verifynonRegisteredUserShoudNotAbleToMailToFriend" />
         <item itemvalue="TestNG.TestSuit.verifyMailShouldBeSentSuccessfully (2)" />
         <item itemvalue="TestNG.TestSuit.verifyMailShouldBeSentSuccessfully (1)" />
         <item itemvalue="TestNG.TestSuit.verifyRegisterShouldBeSuccessfullydone" />
@@ -195,7 +200,19 @@
       <option name="presentableId" value="Default" />
       <updated>1684697205689</updated>
     </task>
+    <task id="LOCAL-00001" summary="jenkin">
+      <created>1685132308445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685132308445</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jenkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

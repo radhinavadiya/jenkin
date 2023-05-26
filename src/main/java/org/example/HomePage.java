@@ -9,5 +9,13 @@ public class HomePage extends Utils {
         //CLICK ON buld your comuter
         clickOnElement(By.xpath("//*[text()='Build your own computer']"));
 
+    }public void logIn() {
+        clickOnElement(By.className("ico-login"));
+        //enter email
+        sendText(By.id("Email"), "TestEmail@gmail.com");
+        //add passwordd
+        sendText(By.id("Password"), "Test1234");
+        //click on login button
+        clickOnElement(By.xpath("//button[@class=\"button-1 login-button\"]"));
     }
 }

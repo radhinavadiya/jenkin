@@ -75,6 +75,6 @@ public class DriverManager extends Utils {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
     public void closeBrowser() {
-        driver.close();//to close browser
+       // driver.close();//to close browser
     }
 }

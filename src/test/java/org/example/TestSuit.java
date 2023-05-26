@@ -20,7 +20,7 @@ public class TestSuit extends BaseTest {
 public void verifyMailShouldBeSentSuccessfully(){
     homePage.clickOnRegisterButton();
     details.fillRegisterDetails();
-clickOnElement(By.xpath("//img[@alt='nopCommerce demo store']"));
+homePage.logIn();
     homePage.clickonComputer();
     buildYourComputerPage.buildOwnComputer();
     mailPage.productRefferedMailResult();
